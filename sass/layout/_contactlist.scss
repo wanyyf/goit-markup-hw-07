@@ -1,0 +1,35 @@
+.contactlist {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contactlist__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color var(--transition);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contactlist__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contactlist__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

@@ -1,0 +1,20 @@
+.footpage__content {
+  margin-right: 70px;
+}
+.footpage {
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footpage__container {
+  display: flex;
+  align-items: baseline;
+}
+.footpage__logo--inverse {
+  color: #ffffff;
+}
+
+.footpage__logo {
+  display: block;
+  margin-bottom: 20px;
+}
