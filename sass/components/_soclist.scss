@@ -4,7 +4,7 @@
   color: var(--text-color);
 }
 
-.soclist__item a {
+.soclist__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,17 +13,12 @@
   border-radius: 50%;
   fill: #afb1b8;
   transition: background-color var(--transition), fill var(--transition);
-}
-
-.soclist__link {
-
   &:hover,
   &:focus {
     background-color: var(--accent-color);
     fill: #ffffff;
   }
 }
-
 
 .soclist__item:not(:last-child) {
   margin-right: 10px;
